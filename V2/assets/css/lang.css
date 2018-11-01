@@ -1,0 +1,38 @@
+.langage_button_structure {
+	z-index:9;
+	position: absolute;
+	right: 0px;
+	top: 15%;
+	transition: 0.5s;
+}
+.langage_button_princ {
+	background-color: #333;
+	display: block;
+	width: 70px;
+	height: 70px;
+	background-size: 35px;
+	background-repeat: no-repeat;
+	background-position: 17px,0px;
+	cursor: pointer;
+}
+.langage_button_structure:hover .langage_button-content {
+	display: block
+}
+.langage_button-content {
+	display: none;
+}
+.langage_button {
+	display: block;
+	background-color: #333;
+	width: 70px;
+	height: 70px;
+	background-size: 35px;
+	background-repeat: no-repeat;
+	background-position: 17px,0px;
+	cursor: pointer;
+}
+.lang-es {background-image: url('/assets/img/langs/es.png');}
+.lang-de {background-image: url('/assets/img/langs/de.png');}
+.lang-fr {background-image: url('/assets/img/langs/fr.png');}
+.lang-en {background-image: url('/assets/img/langs/en.png');}
+.lang-ro {background-image: url('/assets/img/langs/ro.png');}
