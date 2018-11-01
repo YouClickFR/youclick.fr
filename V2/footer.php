@@ -38,10 +38,10 @@ $footer = translate("footer", $language);
 <div id="social" class="boxFlex">
 	<h2><?=$footer['cat2']?></h2>
 	<ul>
-		<li id="fb"><a href="https://youclick.fr/extern?facebook" target="_blank"><img width=25 src="/beta/assets/img/facebook_btn.png" /></a></li>
-		<li id="tw"><a href="https://youclick.fr/extern?twitter" target="_blank"><img width=25 src="/beta/assets/img/twitter_btn.png" /></a></li>
-		<li id="ds"><a href="https://youclick.fr/extern?discord" target="_blank"><img width=25 src="/beta/assets/img/discord_btn.png" /></a></li>
-		<li id="yt"><a href="https://youclick.fr/extern?youtube" target="_blank"><img width=25 src="/beta/assets/img/yt_btn2.png" /></a></li>
+		<li id="fb"><a href="https://youclick.fr/extern?facebook" target="_blank"><img width=25 src="/assets/img/facebook_btn.png" /></a></li>
+		<li id="tw"><a href="https://youclick.fr/extern?twitter" target="_blank"><img width=25 src="/assets/img/twitter_btn.png" /></a></li>
+		<li id="ds"><a href="https://youclick.fr/extern?discord" target="_blank"><img width=25 src="/assets/img/discord_btn.png" /></a></li>
+		<li id="yt"><a href="https://youclick.fr/extern?youtube" target="_blank"><img width=25 src="/assets/img/yt_btn.png" /></a></li>
 	</ul>
 </div>
 </div>
