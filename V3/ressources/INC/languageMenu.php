@@ -1,0 +1,9 @@
+<div id="languageMenu">
+    <ul>
+        <li id="selected"><a href="#"><img src="https://youclick.fr/assets/img/fr.png" alt="FR" width="35"></a></li>
+        <li><a href="#"><img src="https://youclick.fr/assets/img/en.png" alt="EN" width="35"></a></li>
+        <li><a href="#"><img src="https://youclick.fr/assets/img/de.png" alt="DE" width="35"></a></li>
+        <li><a href="#"><img src="https://youclick.fr/assets/img/es.png" alt="ES" width="35"></a></li>
+        <li><a href="#"><img src="https://youclick.fr/assets/img/ro.png" alt="RO" width="35"></a></li>
+    </ul>
+</div>

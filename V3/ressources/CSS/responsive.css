@@ -1,0 +1,84 @@
+/* [USERPAGE] */
+@media screen and (max-width: 800px) {
+    .userPageContainer {
+        width: 50%;
+        height: 50%;
+    }
+    .userPageContainer #header {    
+        padding-right: 10%;
+    }
+    .userPageContainer #header #avatar {
+        height: 60%;
+        bottom: -30%;
+    }
+    .userPageContainer #header #pseudo {
+        font-size: 20pt;
+        text-align: right;
+    }
+    .userPageContainer #header #role {
+        font-size: 10pt;
+        text-align: right;
+    }
+    .userPageContainer #socials {font-size: 10pt;}
+}
+
+/* [FOOTER] */
+
+@media screen and (min-width: 1096px) {
+	#footer #footerText p {
+		font-size: small;
+	}
+}
+@media screen and (max-width: 1095px) {
+	#footer #footerText p {
+		font-size: 10pt;
+	}
+}
+@media screen and (max-width: 913px) {
+	#footer #footerText p {
+		font-size: 8pt;
+		padding: 12px;
+	}
+}
+@media screen and (max-width: 740px) {
+	#footer h2 {
+		font-size: 12pt;
+	}
+}
+@media screen and (max-width: 550px) {
+	#footer #languageSelection li a {
+		font-size: 0;
+	}
+	#footer #languageSelection li a:hover:after {display:  none !important;}
+	#footer #languageSelection li a img {transition: .25 ease;}
+	#footer #languageSelection li a img:hover {transform: scale(1.1);}
+}
+@media screen and (max-width: 500px) {
+	#language {display: none;}
+	#respLanguageSelection {
+		display: none !important;
+		width: 100%;
+		text-align: center;
+	}
+	#respLanguageSelection ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	#respLanguageSelection ul li {
+		display: inline-block;
+		margin: 2.5px;
+	}
+	#respLanguageSelection ul li a {transition: .25s ease;}
+	#respLanguageSelection ul li a:hover {transform: scale(1.1);}
+	#respLanguageSelection ul li a:hover:after {width: 0;}
+	#footerText p {font-size: 6pt;}
+}
+
+/* [MENU] */ 
+@media screen and (max-width: 950px) {
+	#topMenu {opacity: 0;visibility: hidden;animation: fadeOut .3s ease;}
+	@keyframes fadeOut {from {opacity: 1;} 99% {visibility: visible;}}
+
+	.responsiveMenuElements {opacity: 1; visibility: visible;}
+}

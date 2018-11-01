@@ -1,0 +1,35 @@
+p {
+    width: 70%;
+    margin: 20px auto;
+}
+section#achievements {padding-top: 75px;}
+.category {
+    width: 70%;
+    background: #ccc;
+    margin: 10px auto;
+    padding: 5px;
+}
+.category ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    border-radius: 10em;
+    background: #efb9b9;
+    padding: 10px;
+    padding-left: 40px;
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+}
+.category ul li::before {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: url("../IMG/rcross.png") center center;
+    background-size: contain;
+    border-radius: 50%;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.category ul li.got {background:#b9efb9; }
+.category ul li.got::before {background: url("../IMG/rcheck.png") center center;background-size: contain;}

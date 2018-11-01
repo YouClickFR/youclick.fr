@@ -1,0 +1,56 @@
+span{display: inline-block;}
+html, body {width: 100%;height: 100%;margin: 0;}
+body.party {animation: partyYOLO 2s linear infinite;}
+*::-moz-selection {background: #dd2a2a;color: #fff;}
+*::-o-selection {background: #dd2a2a;color: #fff;}
+*::-ms-selection {background: #dd2a2a;color: #fff;}
+*::-webkit-selection {background: #dd2a2a;color: #fff;}
+*::selection {background: #dd2a2a;color: #fff;}
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+h1 {font-size: 25pt;font-weight: 500;}
+h2 {font-weight: 300;}
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p a {color: inherit;}
+p a:hover {text-decoration: none;}
+section {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background: #eeeeee;
+}
+section:nth-child(odd) {background: #E2E2E2;}
+section .bottomText {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #E2E2E2;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    padding: 10px;
+}
+section:nth-child(odd) .bottomText {background: #eee;}
+
+div#fleche img {
+    position: absolute;
+    left: 1%;
+    transform: rotate(90deg);
+    width: 8%;
+    height: auto;
+}
+@keyframes partyYOLO {
+    from {filter: hue-rotate(0deg)}
+    to {filter: hue-rotate(360deg)}
+}

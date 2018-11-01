@@ -1,0 +1,106 @@
+#footerText {
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	transition: .25 ease;
+	height: 50px;
+	background-color: #19191994;
+
+}
+#footer p {margin: 0;}
+#footer h2 {
+	margin-top: 0;
+	margin-bottom: 3px;
+	transition: .25 ease;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+
+}
+#flex {
+	padding-top: 23px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+}
+#footer {
+	text-align: left;
+	padding: 5px;
+	color: #fff;
+	box-sizing: border-box;
+	height: 300px;
+    width: 100%;
+    background: #232323;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	position: relative;
+	overflow: hidden;
+	background-image: url('https://youclick.fr/beta/assets/img/pattern.png');
+	background-size: contain;
+}
+#footer ul {
+	padding: 2px;
+}
+#footer ul#languageSelection li {
+    display: block;
+	margin: 5px;
+}
+#footer  a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+}
+#footer ul#languageSelection li a {transition: .25 ease;}
+#footer ul#languageSelection li a img {
+	margin-right: 3px;
+}
+#footer a:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 1.5px;
+	background: #fff;
+	bottom: -2px;
+	right: 0;
+	transition: .25s ease;
+}
+#footer a:hover:after {
+	width: 100%;
+	left: 0;
+}
+#footer #links ul {
+	padding: 3px;
+	list-style: none;
+}
+#footer #links ul li {margin: 10px 0;}
+#footer #social ul li {
+	display: inline-block;
+	margin: 1px;
+	background: #ddd;
+	border-radius: 50%;
+	transition: .25s ease;
+	box-sizing: content-box;
+}
+#footer #social ul li a {
+	width: 25px;
+	height: 25px;
+	padding: 10px;
+	box-sizing: content-box;
+}
+#footer #social ul li a:after {display: none;}
+#footer #social ul li#fb {background: #3B5998;}
+#footer #social ul li#tw {background: #1da1f2;}
+#footer #social ul li#ds {background: #7289DA;}
+#footer #social ul li#yt {background: #f00;}
+#footer #social ul li#fb:hover {background: #3B599890;}
+#footer #social ul li#tw:hover {background: #1da1f290;}
+#footer #social ul li#ds:hover {background: #7289DA90;}
+#footer #social ul li#yt:hover {background: #ff000090;}
+#footer #respLanguageSelection {display: none;}
+.boxFlex {
+    margin: auto;
+    margin-top: initial;
+}
