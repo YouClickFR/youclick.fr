@@ -1,0 +1,259 @@
+@font-face {
+    font-family:'Ubuntu-Light';
+    src:url('../font/Ubuntu-Light.ttf');
+}
+body {
+    margin:0px;
+    font-family:'Ubuntu-Light';
+    background:#e74c3c;
+    filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=#FFff0000, endColorstr=#FFffffff);
+}
+@media all and (min-width:0px) {
+    body {
+        /* Navigateurs récents */
+        background-image:-webkit-gradient(
+            linear,
+            left top, left bottom,
+            from(#cd201f),
+            to(#f77c7f)
+        );
+        background-image:-webkit-linear-gradient(
+            top,
+            #cd201f,
+            #ff8e92
+        );
+        background-image:-moz-linear-gradient(
+            top,
+            #cd201f,
+            #f77c7f
+        );
+        background-image:-o-linear-gradient(
+            top,
+            #cd201f,
+            #f77c7f
+        );
+        background-image:linear-gradient(
+            top,
+            #cd201f,
+            #f77c7f
+        );
+    }
+}
+* {
+    outline:none;
+}
+#Logo {
+    margin-top:calc(25vh - 112px);
+    width:50%;
+}
+#backgroundLogo {
+    display:block;
+    background-image:url('../img/bg.jpg');
+    background-attachment:fixed;
+    background-clip:border-box;
+    background-origin:padding-box;
+    background-position:50% 0;
+    background-repeat:no-repeat;
+    background-size:cover !important;
+    position:relative;
+    margin-top:56px;
+    height:100vh;
+    background-color:#4c2fa6;
+    text-align:center;
+}
+.box {
+    padding:40px;
+    display:block;
+    background-color:#ecf0f1;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:70px;
+    width:70%;
+    height:auto;
+    text-align:center;
+    border-radius:5px;
+    border-top:4px solid #434a52;
+    border-bottom:4px solid #434a52;
+}
+.achievement {
+    background-color:#2ecc71;
+    color:#ecf0f1;
+    position:fixed;
+    padding:14px 8px;
+    margin:0px;
+    width:100%;
+    height:auto;
+    top:calc(50% - 120px);
+    text-align:center;
+    z-index:2;
+    border-radius:5px;
+    border-top:4px solid #434a52;
+    border-bottom:4px solid #434a52;
+    -moz-box-shadow:0px 0px 60px -5px #656565;
+    -webkit-box-shadow:0px 0px 60px -5px #656565;
+    -o-box-shadow:0px 0px 60px -5px #656565;
+    box-shadow:0px 0px 60px -5px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=60);
+}
+.miniature {
+    -moz-box-shadow:0px 0px 60px -5px #656565;
+    -webkit-box-shadow:0px 0px 60px -5px #656565;
+    -o-box-shadow:0px 0px 60px -5px #656565;
+    box-shadow:0px 0px 60px -5px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=40);
+    max-width:100%;
+    height:auto;
+    border-radius:5px;
+    border-top:4px solid #434a52;
+    border-bottom:4px solid #434a52;
+}
+#menu{
+    position:fixed;
+    width:100%;
+    top:0;
+    background-attachment:fixed;
+    z-index:1;
+    -moz-box-shadow:0px 10px 60px -20px #656565;
+    -webkit-box-shadow:0px 10px 60px -20px #656565;
+    -o-box-shadow:0px 10px 60px -20px #656565;
+    box-shadow:0px 10px 60px -20px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=60);
+}
+.accueilMenu{
+    background-color:rgba(210, 0, 0, 0.93);
+}
+p {
+    font-size:13.5px;
+    font-style:italic;
+}
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:rgba(36, 36, 36, 0.93);
+    font-size:18px;
+    line-height:1.6em;
+    width:100%;
+    box-sizing:border-box;
+}
+@media screen and (max-width:475px) {
+    li a {
+        display:block;
+        color:white;
+        text-align:center;
+        padding:14px 8px;
+        text-decoration:none;
+        font-size:10px;
+    }
+}
+@media screen and (min-width:476px) and (max-width:625px) {
+    li a {
+        display:block;
+        color:white;
+        text-align:center;
+        padding:14px 16px;
+        text-decoration:none;
+        font-size:12px;
+    }
+}
+@media screen and (min-width:626px) {
+    li a {
+        display:block;
+        color:white;
+        text-align:center;
+        padding:14px 16px;
+        text-decoration:none;
+        font-size:18px;
+    }
+}
+@media screen and (max-width:450px) {
+    .btn {
+        font-family:'Ubuntu-Light';
+        font-size:11px;
+        background:#e74c3c;
+        color:#ffffff;
+        border:0px;
+        padding:20px 30px;
+        width:100%;
+        display:inline-block;
+        text-align:center;
+        cursor:pointer;
+    }
+    .input {
+        font-family:'Ubuntu-Light';
+        font-size:12px;
+        background:#2c3e50;
+        color:#ecf0f1;
+        border:1px solid #e74c3c;
+        padding:20px 0px 20px 0px;
+        width:calc(100% - 2px);
+        display:inline-block;
+        text-align:center;
+        font-weight:bold;
+    }
+    .btn:hover {
+        background:#c0392b;
+    }
+}
+@media screen and (min-width:451px) and (max-width:600px) {
+    .btn {
+        font-family:'Ubuntu-Light';
+        font-size:15px;
+        background:#e74c3c;
+        color:#ffffff;
+        border:0px;
+        padding:20px 30px;
+        width:100%;
+        display:inline-block;
+        text-align:center;
+        cursor:pointer;
+    }
+    .input {
+        font-family:'Ubuntu-Light';
+        font-size:16px;
+        background:#2c3e50;
+        color:#ecf0f1;
+        border:1px solid #e74c3c;
+        padding:20px 0px 20px 0px;
+        width:calc(100% - 2px);
+        display:inline-block;
+        text-align:center;
+        font-weight:bold;
+    }
+    .btn:hover {
+        background:#c0392b;
+    }
+}
+@media screen and (min-width :601px) {
+    .btn {
+        font-family:'Ubuntu-Light';
+        font-size:20px;
+        background:#e74c3c;
+        color:#ffffff;
+        border:0px;
+        padding:20px 30px;
+        width:100%;
+        display:inline-block;
+        text-align:center;
+        cursor:pointer;
+    }
+    .input {
+        font-family:'Ubuntu-Light';
+        font-size:22px;
+        background:#2c3e50;
+        color:#ecf0f1;
+        border:1px solid #e74c3c;
+        padding:20px 0px 20px 0px;
+        width:calc(100% - 2px);
+        display:inline-block;
+        text-align:center;
+        font-weight:bold;
+    }
+    .btn:hover {
+        background:#c0392b;
+    }
+}
+li a:hover:not(.active) {
+    background-color:rgba(198, 0, 0, 0.93);
+}
