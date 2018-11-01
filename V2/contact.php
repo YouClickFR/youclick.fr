@@ -11,7 +11,9 @@ $contact = translate("contact", $language);
 
 $form1 = htmlspecialchars($_POST['form1']);
 if ($form1 != "") {
-	$result = json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6Ld52l0UAAAAAAojM_nEsHcUKkr6d_bEavXueFlN&response=".$_POST['g-recaptcha-response']."&remoteip=".$_SERVER['HTTP_X_FORWARDED_FOR']), true);
+	// Clé secrète pour le captcha
+	$secret = "";
+	$result = json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$_POST['g-recaptcha-response']."&remoteip=".$_SERVER['HTTP_X_FORWARDED_FOR']), true);
 	if ($result['success'] != 1) die("Captcha_invalid");
 	$form1 = htmlspecialchars($_POST['form1']);
 	$form2 = htmlspecialchars($_POST['form2']);
