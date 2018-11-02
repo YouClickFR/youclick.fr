@@ -2,9 +2,9 @@
 <html prefix="og: http://ogp.me/ns#">
 <?php require("ressources/INC/head.php");?>
 <body>
-<?php require("ressources/INC/header.php");?>
-<?php require("ressources/INC/topMenu.php")?>
-<?php require("ressources/INC/languageMenu.php")?>
+<?php require("ressources/INC/header.htm");?>
+<?php require("ressources/INC/topMenu.htm")?>
+<?php require("ressources/INC/languageMenu.htm")?>
 <section id="home">
     <h1>Bienvenue sur YouClick !</h1>
     <p>
@@ -93,5 +93,5 @@
         }
     </script>
 </section>
-<?php require_once("ressources/INC/footer.php"); ?>
+<?php require_once("ressources/INC/footer.htm"); ?>
 </html>
