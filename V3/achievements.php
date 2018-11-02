@@ -3,8 +3,8 @@
 <?php require("ressources/INC/head.php");?>
 <link href="ressources/CSS/achievements.css" rel="stylesheet" />
 <body>
-<?php require("ressources/INC/topMenu.php")?>
-<?php require("ressources/INC/languageMenu.php")?>
+<?php require("ressources/INC/topMenu.htm")?>
+<?php require("ressources/INC/languageMenu.htm")?>
 <script>$("#topMenu,#topMenu #logo").addClass("active");</script>
 <section id="achievements">
     <h1>Succès</h1>
@@ -44,4 +44,4 @@
         </ul>
     </div>
 </section>
-<?php require("ressources/INC/footer.php")?>
+<?php require("ressources/INC/footer.htm")?>
