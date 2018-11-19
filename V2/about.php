@@ -88,7 +88,7 @@ function interview($a) {
 		</div>
 		<div class="interview-class" onclick="Alert.render('<img src=\'/assets/img/langs/fr.png\' class=\'flag\' alt=\'FR\'>Hickacou','','')">
 			<img class="avatarimg" src="/assets/img/interview/hickacou.jpg"><h2>Hickacou</h2><p style="margin-top:-15px"><font color="#41bf41"><?=$about['devweb']?></font></p>
-			<?=twitter("Hickacou")?>
+			<?=twitter("PuddingMangue")?>
 		</div>
 		<div class="interview-class" onclick="Alert.render('<img src=\'/assets/img/langs/fr.png\' class=\'flag\' alt=\'FR\'>Spyromain','','')">
 			<img class="avatarimg" src="/assets/img/interview/spyromain.jpg"><h2>Spyromain</h2><p style="margin-top:-15px"><font color="#41bf41"><?=$about['devweb']?></font></p>
@@ -110,7 +110,7 @@ function interview($a) {
 		<br>
 		<div class="interview-class" onclick="Alert.render('<img src=\'/assets/img/langs/fr.png\' class=\'flag\' alt=\'FR\'>Laizrod','<?=interview('laizrod')?>','')">
 			<img class="avatarimg" src="/assets/img/interview/laizrod.jpg"><h2>Laizrod</h2><p style="margin-top:-15px"><font color="#2980b9"><?=$about['cmplus']?></font></p>
-			<?=twitter("Laizrod_Youtube")?>
+			<?=twitter("Laizrod_")?>
 		</div>
 		<br><br><br>
 		<h1><?=$about['thk']?></h1>
