@@ -15,6 +15,8 @@ La V1 a été la première version publique, on pouvait la voir sur beaucoup de 
 La V2 était effectivement la version disponible à la fermeture.
 La V3 est incomplète, elle est légèrement fournie au niveau du front-end, mais elle a été abandonnée suite à la fermeture du site.
 
+Développeurs : @OzachiDev, @SkywalkerFR, @Hickacou, @AntoZzz
+
 ##
 
 Welcome !
@@ -31,3 +33,5 @@ The V0 is the very first *ugly* version that we were able to find, it served to 
 The V1 were the first public version, we can see it on a lot of YouTube videos on the website.
 The V2 was actually the version available at the shutdown.
 The V3 is incomplete, it was slightly deepened at the front-end side, but it was abandoned with the website shutdown.
+
+Developers: @OzachiDev, @SkywalkerFR, @Hickacou, @AntoZzz
